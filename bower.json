@@ -1,10 +1,9 @@
 {
   "name": "helloWorld-1",
   "main": "index.html",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0",
-    "paper-input": "@polymer/paper-input#^3.0.1",
     "vaadin-text-field": "vaadin/vaadin-text-field#2.1.2"
   },
   "devDependencies": {
