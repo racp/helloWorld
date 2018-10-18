@@ -1,5 +1,5 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
-<link rel="import" href="../../bower_components/paper-input/test/paper-input.html">
+<link rel="import" href="../../bower_components/vaadin-text-field/vaadin-text-field.html">
 
 <dom-module id="helloWorld-1-app">
   <template>
@@ -9,7 +9,7 @@
       }
     </style>
     <div>
-      <paper-input id="inputId" value="{{userInput}}"></paper-input>
+      <vaadin-text-field id="inputId" value="{{userInput}}"></vaadin-text-field>
       <button id="helloButton" on-click="sayHello">Say hello</button>
       <div id="greeting">[[greeting]]</div>
     </div>
@@ -27,6 +27,9 @@
           prop1: {
             type: String,
             value: 'helloWorld-1-app'
+          },
+          greeting: {
+            type: String
           }
         };
       }
