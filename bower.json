@@ -1,6 +1,7 @@
 {
   "name": "helloWorld-1",
   "main": "index.html",
+  "version": "1.0.1",
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0",
     "paper-input": "@polymer/paper-input#^3.0.1",
