@@ -1,7 +1,7 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../../bower_components/vaadin-text-field/vaadin-text-field.html">
 
-<dom-module id="helloWorld-1-app">
+<dom-module id="helloWorld-app">
   <template>
     <style>
       :host {
@@ -20,9 +20,9 @@
      * 
           */
     class HelloWorld1App extends Polymer.Element {
-      static get is() { return 'helloWorld-1-app'; }
+      static get is() { return 'helloworld-app'; }
       static get version() {
-        return '1.0.0';
+        return '1.0.1';
       }
       static get properties() {
         return {
@@ -34,7 +34,8 @@
             type: String
           },
           userInput: {
-            type: String
+            type: String,
+            value: 'Etiqueta'
           }
         };
       }
