@@ -1,7 +1,7 @@
 {
   "name": "helloWorld-1",
   "main": "index.html",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0",
     "vaadin-text-field": "vaadin/vaadin-text-field#2.1.2"
